@@ -11,6 +11,7 @@ module.exports = {
   },
   collectCoverageFrom: [
     'lib/**/*.ts',
+    '!lib/plugins/*.ts',
     '!lib/**/*.mock.ts',
     '!lib/**/*.test.ts',
     '!lib/**/*.spec.ts',

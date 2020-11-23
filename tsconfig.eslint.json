@@ -2,7 +2,8 @@
   "extends": "./tsconfig.json",
   "include": [
     "lib/**/*.ts",
-    "examples/**/*.ts"
+    "examples/**/*.ts",
+    "plugins/**/*.ts"
   ],
   "exclude": [
     "dist/**/*.ts"
